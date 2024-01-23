@@ -21,6 +21,7 @@ jobs:
           - ubuntu-latest
           - windows-latest
           - macos-latest
+          - buildjet-2vcpu-ubuntu-2204-arm
 
     runs-on: ${{ matrix.os }}
 
