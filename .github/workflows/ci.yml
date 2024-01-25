@@ -37,7 +37,7 @@ jobs:
           sudo apt update
           sudo apt install -y libudev-dev
         # Only install on Ubuntu
-        if: (matrix.os == 'ubuntu-latest') || (matrix.os == 'ubuntu-20.04')
+        if: (matrix.os == 'ubuntu-latest') || (matrix.os == 'ubuntu-20.04') || (matrix.os == 'buildjet-2vcpu-ubuntu-2204-arm')
 
       - uses: ./.github/actions/setup
 
